@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenhando no Canvas</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+    <h1><span>Canvas</span> WebPaint</h1>
+    <img src="https://i.pinimg.com/originals/7c/43/0b/7c430ba6fb3cd7058aec52cb84a080e6.png" alt="paint_image">
+    </header>   
+    <canvas id="tela" width="800" height="400"></canvas>
+
+    <div class="colorArea">
+        <div data-color="black" style="background-color: rgb(29, 28, 28)" class="color active"></div>
+        <div data-color="blue" style="background-color: rgb(28, 80, 253)" class="color"></div>
+        <div data-color="red" style="background-color: rgb(255, 42, 42)" class="color"></div>
+        <div data-color="green" style="background-color: rgb(81, 233, 81)" class="color"></div>
+        <div data-color="yellow" style="background-color: rgb(250, 250, 81)" class="color"></div>
+        <div data-color="gray" style="background-color: rgb(139, 132, 132)" class="color"></div>
+        <div data-color="white" style="background-color: rgb(255, 255, 255)" class="color"></div>
+    </div>
+
+    <button class="clear">Limpar Quadro</button>
+
+    <footer>Made by <strong>JG</strong></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
